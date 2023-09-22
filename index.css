@@ -1,0 +1,366 @@
+body,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background-color: #e1e1e1;
+}
+nav{
+    background-color: #e1e1e1;
+    color: #333;
+    padding: 10px;
+}
+.container{
+    /* max-width: 100%; */
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e1e1;
+}
+.nav-links{
+    display: flex;
+}
+.nav-links li{
+    margin-right: 50px;
+}
+.nav-links li:last-child{
+    margin-right: 0;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #787777;
+    font-weight: bold;
+}
+.nav-links a:hover{
+    color: black;
+}
+
+/* Style the right "Contact Us" button */
+.nav-right .contact-button {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style the "Contact Us" button on hover */
+/* .right-links .contact-button:hover {
+    background-color: #0055aa;
+} */
+.homepage-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .home-content h1{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+main .container{
+    margin-bottom: 175px;
+}
+
+/* Style the left content */
+.left-content {
+    max-width: 400px;
+    margin-right: 20px;
+}
+
+.left-content h1 {
+    font-size: 24px;
+}
+.btn-reserve .reserve-button {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Style the homepage image */
+.homepage-image img {
+    height: fit-content;
+}
+.water-fall{
+    width: 500px;
+    height: 400px;
+}
+/* .container .banner .banner-img{
+    box-sizing: fit-content;
+    max-width: 100%;
+} */
+.banner{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+.banner .banner-matter {
+    padding-top: 30px;
+    font-size: 20px;
+}
+.banner-matter{
+    margin-top: 40px;
+}
+.banner .banner-matte h1{
+    margin-top: 30px;
+
+}
+.btn-travel .travel-button {
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.sitting-img{
+    height: 290px;
+}
+.container2{
+    max-width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e1e1;
+}
+.container3{
+    justify-content: center;
+    text-align: center;
+}
+.icon{
+    max-width: 1200px;
+    margin: 150px auto;
+    justify-content: center;
+    font-size: 80px;
+    color: black;
+}
+.icon h1{
+    justify-content: center;
+    font-size: 80px;
+}
+.underline{
+    text-decoration: underline;
+}
+#data{
+    font-size: 20px;
+}
+.container4{
+    max-width: 1200px;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    background-color: #e1e1e1;
+
+}
+.container4 .content-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.waterfall-img{
+    height: 700px;
+    padding-right: 30px;
+}
+.hill-img{
+    width: 500px;
+    padding-bottom: 40px;
+    height: 350px;
+}
+.hill-content-data{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hill-heading{
+    padding-right: 30px;
+    
+}
+.hill-heading h1{
+    font-size: 45px;
+    text-decoration: underline;
+}
+#arrow-icon {
+    font-size: 70px;
+    text-align: end;
+}
+.container5{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+.tourist{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tourist img{
+    width: 600px;
+    height: auto;
+    padding-top: 60px;
+}
+.tourist-data{
+    color: white;
+    padding: 40px 70px;
+    margin-left: 80px;
+}
+.container6{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e1e1;
+}
+.hr-line{
+    color: black;
+    height: 2px;
+    background-color: black;
+}
+.space{
+    padding-left: 100px;
+}
+.tourist-place{
+    height: 400px;
+}
+.container7{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding-top: 80px;
+    align-items: center;
+    background-color: #e1e1e1;
+
+}
+.container7 h1{
+    margin-top: 150px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 80px;
+}
+.user-info{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 13px;
+}
+.user-list .user-icon{
+    font-size: 120px;
+    text-align: center;
+
+}
+.user-list h3,p{
+    text-align: center;
+}
+.customer-data{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.border-icon {
+    position: absolute;
+    font-size: 60px;
+    border: 2px solid black;
+    margin-top: 150px;
+    margin-left: -30px;
+    background-color:#e1e1e1;
+    border-radius: 8px;
+}
+.user-info-arrow{
+    position: absolute;
+    font-size: 60px;
+    border: 2px solid black;
+    margin-top: -200px;
+    margin-left: 320px;
+    background-color:#e1e1e1;
+}
+.container8{
+    max-width: 1200px;
+    margin: 40px auto;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1e1e1;
+
+}
+.left-section-form{
+    justify-content: center;
+}
+.left-section-form h1{
+    font-size: 70px;
+}
+.form-data{
+    height: 40px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.text-area{
+    height: 300px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: start;
+}
+.form-data-btn{
+    height: 40px;
+    width: 400px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.right-section-form img{
+    max-width: 80%;
+    
+}
+.final-section{
+    height: 400px;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin: 0;
+    background-color: #787777;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+
+}
+.imp-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+.imp-links ul li:hover{
+    color: black;
+    font-weight: bold;
+    
+}
+.copy-right{
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
